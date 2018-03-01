@@ -21,7 +21,7 @@ X = X / sigma
 X = np.hstack((np.ones((m, 1)), X))
 
 # 3. batch gradient descent
-num_iters = 100;
+num_iters = 1000;
 alpha = 0.1
 theta = np.zeros((n+1, 1))
 J = np.zeros((num_iters, 1))
@@ -32,6 +32,7 @@ for i in range(0, num_iters):
 
     h = X.dot(theta)
     J[i] = np.sum((h-y)**2) / (2 * m)
+print('J converges at value:%s\n' % J[num_iters - 1])
 
 # 4. plot the convergence graph.
 plt.plot(np.arange(1, num_iters + 1), J)
