@@ -37,5 +37,5 @@ for i in range(0, num_iters):
 plt.plot(np.arange(1, num_iters + 1), J)
 plt.xlabel('number of iterations')
 plt.ylabel('mean squared error')
-plt.title('linear regression with gradient descent')
+plt.title('linear regression with batch gradient descent')
 plt.show()
