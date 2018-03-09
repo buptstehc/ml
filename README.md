@@ -2,7 +2,7 @@
 
 ## 1. 有监督学习
 
-### 线性回归
+### 1.1 线性回归
 
 [线性回归-梯度下降](https://github.com/buptstehc/ml/blob/master/lr/gd.py)
 
