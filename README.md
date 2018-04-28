@@ -1,12 +1,6 @@
 机器学习小程序
 
-## 1. 有监督学习
-
-### 1.1 线性模型
-
-[线性回归-梯度下降](https://github.com/buptstehc/ml/blob/master/lr/gd.py)
-
-[线性回归-正规化方程](https://github.com/buptstehc/ml/blob/master/lr/ne.py)
+## 1. 分类
 
 [softmax回归](https://github.com/buptstehc/ml/blob/master/softmax.py)
 
@@ -14,6 +8,16 @@
 
 [线性判别分析LDA](https://github.com/buptstehc/ml/blob/master/lda)
 
-## 2. 无监督学习
+[朴素贝叶斯](https://github.com/buptstehc/ml/tree/master/naive-bayes)
+
+## 2. 回归
+
+[线性回归-梯度下降](https://github.com/buptstehc/ml/blob/master/lr/gd.py)
+
+[线性回归-正规化方程](https://github.com/buptstehc/ml/blob/master/lr/ne.py)
+
+## 3. 聚类
+
+## 4. 降维
 
 [主成分分析PCA](https://github.com/buptstehc/ml/blob/master/pca)
