@@ -4,7 +4,9 @@
 
 [softmax回归](https://github.com/buptstehc/ml/blob/master/softmax.py)
 
-[logistic回归](https://github.com/buptstehc/ml/blob/master/logistic.py)
+[logistic回归-牛顿法](https://github.com/buptstehc/ml/tree/master/logistic/newton)
+
+[logistic回归-梯度下降](https://github.com/buptstehc/ml/tree/master/logistic/gradient_descent/gd.py)
 
 [线性判别分析LDA](https://github.com/buptstehc/ml/blob/master/lda)
 
